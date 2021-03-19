@@ -1,0 +1,10 @@
+<!-- footer.html -->
+{% block footer %}
+    {% if now %}
+        <p style="font-family: 'Courier New', Courier, monospace;">现在时刻：{{now}}</p>
+    {% else %}
+        <p style="font-family: 'Courier New', Courier, monospace;">
+            本文内容纯属瞎诌，如有雷同纯属巧合...
+        </p>
+    {% endif %}
+{% endblock %}
